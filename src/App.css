@@ -9,6 +9,14 @@
   align-items: center;
 }
 
+.action-button{
+  min-height: 5vh;
+  color: black;
+  background-color: white;
+  font-size: medium;
+  font-weight: 500;
+}
+
 #count-span{
   font-size: large;
   font-weight: 600;

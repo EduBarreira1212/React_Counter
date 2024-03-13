@@ -22,9 +22,9 @@ const Counter = () => {
 
     return (
         <div>
-            <button onClick={() => dispatch({type: "DECREMENT"})}>Decrement</button>
+            <button className="action-button" onClick={() => dispatch({type: "DECREMENT"})}>Decrement</button>
             <span id="count-span">{state.count}</span>
-            <button onClick={() => dispatch({type: "INCREMENT"})}>Increment</button>
+            <button className="action-button" onClick={() => dispatch({type: "INCREMENT"})}>Increment</button>
         </div>
     );
 }
