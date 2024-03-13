@@ -8,3 +8,9 @@
   justify-content: center;
   align-items: center;
 }
+
+#count-span{
+  font-size: large;
+  font-weight: 600;
+  margin: 5vh 3vw;
+}
